@@ -155,7 +155,6 @@ namespace AdaptiveSharedNamespace
         return root;
     }
 
-
     // Base implementation for elements that have no resource information
     void BaseElement::GetResourceInformation(std::vector<RemoteResourceInformation>& /*resourceInfo*/)
     {

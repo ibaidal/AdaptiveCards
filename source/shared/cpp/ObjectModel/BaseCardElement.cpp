@@ -102,6 +102,8 @@ Json::Value BaseCardElement::SerializeToJsonValue() const
         root[AdaptiveCardSchemaKeyToString(AdaptiveCardSchemaKey::IsVisible)] = false;
     }
 
+    //SerializeFallbackAndRequires(root);
+
     return root;
 }
 

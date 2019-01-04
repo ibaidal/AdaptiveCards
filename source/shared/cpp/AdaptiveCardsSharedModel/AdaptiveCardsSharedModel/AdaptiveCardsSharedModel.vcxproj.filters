@@ -323,5 +323,8 @@
     <ClInclude Include="..\..\ObjectModel\UnknownAction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ObjectModel\BaseElement.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

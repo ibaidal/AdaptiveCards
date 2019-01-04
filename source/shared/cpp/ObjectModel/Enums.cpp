@@ -128,6 +128,7 @@ namespace AdaptiveSharedNamespace
             {AdaptiveCardSchemaKey::TextInput, "textInput"},
             {AdaptiveCardSchemaKey::TextWeight, "weight"},
             {AdaptiveCardSchemaKey::Thickness, "thickness"},
+            {AdaptiveCardSchemaKey::Thickness, "thickness"},
             {AdaptiveCardSchemaKey::TimeInput, "timeInput"},
             {AdaptiveCardSchemaKey::Title, "title"},
             {AdaptiveCardSchemaKey::ToggleInput, "toggleInput"},
