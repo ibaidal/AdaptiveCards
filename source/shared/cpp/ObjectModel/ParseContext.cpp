@@ -17,4 +17,14 @@ namespace AdaptiveSharedNamespace
         actionParserRegistration = (actionRegistration) ? actionRegistration : std::make_shared<ActionParserRegistration>();
         elementIds = (ids) ? ids : std::make_shared<std::unordered_set<std::string>>();
     }
+
+    ContainerStyle ParseContext::GetParentalContainerStyle() const
+    {
+        return m_parentalContainerStyle;
+    }
+
+    void ParseContext::SetParentalContainerStyle(const ContainerStyle value)
+    {
+        m_parentalContainerStyle = value;
+    }
 }

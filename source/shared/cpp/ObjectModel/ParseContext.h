@@ -19,5 +19,9 @@ namespace AdaptiveSharedNamespace
         std::shared_ptr<ActionParserRegistration> actionParserRegistration;
         std::shared_ptr<std::unordered_set<std::string>> elementIds;
         std::vector<std::shared_ptr<AdaptiveCardParseWarning>> warnings;
+        ContainerStyle GetParentalContainerStyle() const;
+        void SetParentalContainerStyle(const ContainerStyle value);
+    private:
+        ContainerStyle m_parentalContainerStyle;
     };
 }
