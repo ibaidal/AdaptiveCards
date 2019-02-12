@@ -93,6 +93,9 @@ namespace UWPUnitTests
             public bool Separator { get; set; }
             public Spacing Spacing { get; set; }
             public bool IsVisible { get; set; }
+
+            public FallbackType FallbackType { get; }
+            public IAdaptiveCardElement FallbackContent { get; }
         };
         class TestElementParser : IAdaptiveElementParser
         {
