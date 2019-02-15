@@ -11,7 +11,7 @@
 			},
 			"fallback": {
 				"type": "Action.Submit",
-				"title": "Lame fallback action"
+				"title": "Boring fallback action"
 			}
 		}
 	],
